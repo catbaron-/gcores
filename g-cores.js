@@ -53,7 +53,7 @@ function callback(xhr, success){
       }
       else{
         // otherwise show the number of the message
-        msg_number = msg_number.toString()
+        msg_number = msg_number == 0? "" : msg_number.toString()
       }
     } catch (e) {
       // The response is not Json data
@@ -64,6 +64,7 @@ function callback(xhr, success){
     // Request failed
     msg_number = "?";
   }
+  if
   chrome.browserAction.setBadgeBackgroundColor({color: '#0000FF'});
   chrome.browserAction.setBadgeText({text: msg_number});
 }
