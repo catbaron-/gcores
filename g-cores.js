@@ -64,7 +64,6 @@ function callback(xhr, success){
     // Request failed
     msg_number = "?";
   }
-  if
   chrome.browserAction.setBadgeBackgroundColor({color: '#0000FF'});
   chrome.browserAction.setBadgeText({text: msg_number});
 }
