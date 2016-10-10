@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "game-cores",
+  "description": "An extension of game-cores",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+        "19": "images/g19.png",
+        "48": "images/g48.png",
+        "128": "images/g128.png"
+      }
+  },
+  "background":{
+    "scripts":[
+      "g-cores.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "cookies",
+    "*://*.g-cores.com/*"
+  ]
+}
