@@ -11,16 +11,16 @@ function getUrlNotificationsAjax(){
 
 // Return the URL of the notification page
 function getUrlNotificationsPage(){
-  if(notification_size == 0){
-    return url_gcores;
-  }
   if(mail_size != 0){
     // if there is a direct message, go to page of inbox
     return url_inbox;
   }
-  else{
+  else if(notification_size != 0){
     // otherwise go to the page of notifications
     return url_notifications;
+  }
+  else{
+    return url_gcores;
   }
 }
 
