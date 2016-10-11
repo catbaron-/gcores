@@ -83,6 +83,14 @@ function callback(xhr, success){
 //   chrome.tabs.create({url: getUrlNotificationsPage()});
 // });
 
+// Receive the request message from the popup page
+chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
+  if(message == 'NumberOfNotification'){
+    // Request for the number of notifications
+    sendResponse(notification_size);
+  }
+});
+
 setInterval(function(){
   checkMSG(getUrlNotificationsAjax(), callback)
 }, 5000)
