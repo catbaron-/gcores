@@ -1,6 +1,7 @@
-url_check_msg = 'http://www.g-cores.com/setting/notifications?ajax=1';
-url_notifications = "http://www.g-cores.com/setting/notifications";
-url_inbox = "http://www.g-cores.com/inbox";
+url_check_msg = url_gcores+'/setting/notifications?ajax=1';
+url_notifications = url_gcores+"/setting/notifications";
+url_inbox = url_gcores+"/inbox";
+url_gcores = "http://www.g-cores.com";
 var notification_size, mail_size;
 
 // Return the URL used for ajax checking notifications
@@ -10,6 +11,9 @@ function getUrlNotificationsAjax(){
 
 // Return the URL of the notification page
 function getUrlNotificationsPage(){
+  if(notification_size == 0){
+    return url_gcores;
+  }
   if(mail_size != 0){
     // if there is a direct message, go to page of inbox
     return url_inbox;
