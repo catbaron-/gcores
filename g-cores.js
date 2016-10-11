@@ -1,8 +1,11 @@
+// Copyright (c) 2016 Catbaron. All rights reserved.
+
+url_gcores = "http://www.g-cores.com";
 url_check_msg = url_gcores+'/setting/notifications?ajax=1';
 url_notifications = url_gcores+"/setting/notifications";
 url_inbox = url_gcores+"/inbox";
-url_gcores = "http://www.g-cores.com";
-var notification_size, mail_size;
+
+var notification_size = mail_size = 0;
 
 // Return the URL used for ajax checking notifications
 function getUrlNotificationsAjax(){
@@ -61,6 +64,8 @@ function callback(xhr, success){
       }
     } catch (e) {
       // The response is not Json data
+      // This condition may be caused by the fact that the user didn't login,
+      // or the request if failed, or the URL is wrong.
       msg_number = "?";
     }
   }
@@ -74,9 +79,9 @@ function callback(xhr, success){
 
 // Click the button and jump to the notification page.
 // The page will rederict to login page if the user is not login
-chrome.browserAction.onClicked.addListener(function(){
-  chrome.tabs.create({url: getUrlNotificationsPage()});
-});
+// chrome.browserAction.onClicked.addListener(function(){
+//   chrome.tabs.create({url: getUrlNotificationsPage()});
+// });
 
 setInterval(function(){
   checkMSG(getUrlNotificationsAjax(), callback)

@@ -10,7 +10,8 @@
         "19": "images/g19.png",
         "48": "images/g48.png",
         "128": "images/g128.png"
-      }
+      },
+    "default_popup":"popup.html"
   },
   "background":{
     "scripts":[
