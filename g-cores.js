@@ -28,7 +28,9 @@ function getUrlNotificationsPage(){
 }
 
 // Check if any new message
-function checkMSG(url, callback){
+// Get the number of notifications and the mails, and show them on the
+// extension button and the popup html
+function checkMSG(url, checkMSGCallback){
   var xhr = new XMLHttpRequest();
   xhr.open("GET", url, true);
   xhr.setRequestHeader("X-Requested-With","XMLHttpRequest");
@@ -45,7 +47,7 @@ function checkMSG(url, callback){
   }
   xhr.send();
 }
-function callback(xhr, success){
+function checkMSGCallback(xhr, success){
   msg_number = "0";
   if(success){
     // The user is login, update the alert on the button
@@ -83,14 +85,43 @@ function callback(xhr, success){
 //   chrome.tabs.create({url: getUrlNotificationsPage()});
 // });
 
+// Given the url of play pae of one podcast, this function will collect
+// information including:
+//  introduction : [{image_url, text}]
+//  time segment: []
+//  url of audio file
+function collectInfomation(url){
+  intro = new Array();
+  time_segment = new Array();
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", url);
+  xhr.onreadystatechange = function(){
+    if(xhr.readyState == 4){
+      // Get the html page, collect the information
+      // The intro list is 3 more longer than the segment list:
+      //    The first two intro slides are the same to the last two
+      //    There is no '0' time segment
+      // The real first slide (slide[1]) has no intro text
+      doc = xhr.responseXML;
+    }else{
+      // Show the error message
+    }
+  }
+  xhr.onerror = function(){
+    // Show the error message
+  }
+}
+
 // Receive the request message from the popup page
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
   if(message == 'NumberOfNotification'){
     // Request for the number of notifications
-    sendResponse(notification_size);
+    response = {'notification_size':notification_size, 'mail_size':mail_size}
+    sendResponse(response);
   }
 });
 
 setInterval(function(){
-  checkMSG(getUrlNotificationsAjax(), callback)
+  checkMSG(getUrlNotificationsAjax(), checkMSGCallback)
 }, 5000)
