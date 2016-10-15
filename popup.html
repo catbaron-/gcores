@@ -9,6 +9,8 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
+        height: 400px;
+        width: 300px;
       }
       .main_window{
         clear: both;
@@ -33,7 +35,6 @@
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
-    <script src="popup.js"></script>
   </head>
   <body>
     <div id="main">
@@ -43,5 +44,8 @@
       </div>
       <div id="play_list" class="main_window"></div>
     </div>
+    <div id="frame" style="display:none"></div>
   </body>
+  <script src="jquery.min.js"></script>
+  <script src="popup.js"></script>
 </html>

@@ -11,14 +11,20 @@ var podcast_info = JSON.parse("{}");
 // Number of notifications
 var notification_size = mail_size = 0;
 
+// Return the URL of list of Gadio
+function getUrlOfGadioList(){
+  // alert(url_gcores+'/categories/9/originals')
+  return url_gcores+'/categories/9/originals';
+}
+
 // Return the URL used for ajax checking notifications
 function getUrlNotificationsAjax(){
-  return url_gcores+'/setting/notifications?ajax=1';;
+  return url_gcores+'/setting/notifications?ajax=1';
 }
 
 // Return the URL of podcast page
 function getUrlOfPodcastPage(id){
-  return url_gcores + "volumes/" + id;
+  return url_gcores + "/volumes/" + id;
 }
 
 // Return the URL of the notification page
@@ -105,18 +111,14 @@ function collectInfomation(id){
   xhr.onreadystatechange = function(){
     if(xhr.readyState == 4){
       // Get the html page, collect the information
-      // The intro list is 3 more longer than the segment list:
-      //    The first two intro slides are the same to the last two
-      //    There is no '0' time segment
-      // The real first slide (slide[1]) has no intro text
+      // The information is organized as Json data
+      // TODO: comment about the content of the Json data
       doc = xhr.response.split("new AudioPlayer(")[1].split(/\);\s*}\s*\)\s*<\/script>/)[0];
-      // doc = doc.split(/jplayerSwf: '\/jplayer.swf',/)[0];
       doc = doc.replace("mediaSrc","\"mediaSrc\"").replace("timelines","\"timelines\"");
       doc = doc.replace("jplayerSwf","\"jplayerSwf\"").replace("audioId","\"audioId\"");
       doc = doc.replace("'/jplayer.swf'","\"/jplayer.swf\"");
       // console.log(doc);
       podcast_info.id = JSON.parse(doc);
-      // console.log(podcast_info[id]);
     }else{
       // Show the error message
     }
@@ -126,20 +128,89 @@ function collectInfomation(id){
   }
   xhr.send();
 }
+
+
 // Receive the request message from the popup page
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
-  if(message.msg == 'GetNumberOfNotification'){
+  if('GetNumberOfNotification' == message.msg){
     // Request for the number of notifications
     response = {'notification_size':notification_size, 'mail_size':mail_size}
+    sendResponse(response);
   }
-  if(message.msg == 'GetPodcastInfomation'){
+  if('GetPodcastInfomation' == message.msg){
+    // Request for gadio's information
     response = podcast_info.id;
+    sendResponse(2333);
   }
-  sendResponse(response);
+  if('GetGadioList' == message.msg){
+    // Request for the list of Gadio
+
+    // parameter:
+    //  list: array of DOM nodeList
+    //  response: return to the popup page
+    function readGadioInfomation(list){
+      response = {};
+      // alert("2");
+      for(var i=0; i<list.length; i++){
+        // alert(i);
+        node = $(list[i]);
+        node_time = node.find('.showcase_time');
+        node_img = node.find('.showcase_img');
+        node_text = node.find('.showcase_test');
+        // alert(11);
+        // get date time
+        node_time.find('span').text('');  //remove the introduction in <span>
+        time = node_time.text().trim()
+
+        // get the urls of the cover image and the podcast
+        url_podcast = node_img.find('a').attr('href');
+        url_img = node_img.find('img').attr('src');
+        // alert(22);
+        // alert(url_podcast);
+        // get the id of the podcast
+        slices = url_podcast.split('/');
+        // alert(221);
+        id = slices[slices.length-1];
+        // alert(222);
+        // get the title
+        title = node_text.find('a').text().trim();
+        // alert(33);
+        //save the information to the response
+        response[id] = {
+          'id': id,
+          'time': time,
+          'url_podcast': url_podcast,
+          'url_img': url_img,
+          'title': title
+        };
+        // alert(response[id]);
+      }
+      // alert(response);
+      return response;
+    }
+    // function readGadioList(data, textStatus, jqXHR){
+    //   // alert("1");
+    //   nodes = $(jqXHR.responseText).find('.row')[0].children;
+    //   response = readGadioInfomation(nodes);
+    //   // alert(response[20145].id);
+    //   // alert("3");
+    //   sendResponse(response[20145].id);
+    //   // alert(response[20145].id);
+    // }
+    // alert("a");
+    htmlobj = $.ajax({url:getUrlOfGadioList(), async:false});
+    // $.get(getUrlOfGadioList(), readGadioList);
+    nodes = $(htmlobj.responseText).find('.row')[0].children;;
+    response = readGadioInfomation(nodes);
+    // alert(response);
+    // alert(JSON.stringify(response));
+    sendResponse(response);
+    // alert("b");
+    // sendResponse({a:1});
+  }
 });
-// collectInfomation("20764");
+
 setInterval(function(){
-  // console.log("23333");
   checkMSG(getUrlNotificationsAjax(), checkMSGCallback);
-  collectInfomation("20764");
+  // collectInfomation("20764");
 }, 5000)

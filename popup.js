@@ -13,10 +13,12 @@ function getNumberOfNotification(response){
 function getPodcastInformation(response){
   console.log(response);
   document.getElementById(id_play_list).innerText = JSON.stringify(response);
-  // document.getElementById(id_button_mail).innerText = response.mail_size;
+}
+
+function showGadioList(response){
+  console.log(response);
+  document.getElementById(id_play_list).innerText = JSON.stringify(response);
 }
 chrome.runtime.sendMessage({'msg':'GetNumberOfNotification'}, getNumberOfNotification);
-chrome.runtime.sendMessage({'msg':'GetPodcastInfomation', 'data':'20764'}, getPodcastInformation);
-
-//
-// collectInfomation("20764");
+// chrome.runtime.sendMessage({'msg':'GetPodcastInfomation', 'data':'20764'}, getPodcastInformation);
+chrome.runtime.sendMessage({'msg':'GetGadioList'}, showGadioList);
