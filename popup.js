@@ -17,7 +17,7 @@ function getPodcastInformation(response){
 
 function showGadioList(response){
   console.log(response);
-  document.getElementById(id_play_list).innerText = JSON.stringify(response);
+  document.getElementById(id_play_list).innerText = response;
 }
 chrome.runtime.sendMessage({'msg':'GetNumberOfNotification'}, getNumberOfNotification);
 // chrome.runtime.sendMessage({'msg':'GetPodcastInfomation', 'data':'20764'}, getPodcastInformation);

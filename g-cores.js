@@ -149,7 +149,7 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
     //  list: array of DOM nodeList
     //  response: return to the popup page
     function readGadioInfomation(list){
-      response = {};
+      response = new Array;
       // alert("2");
       for(var i=0; i<list.length; i++){
         // alert(i);
@@ -176,13 +176,13 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
         title = node_text.find('a').text().trim();
         // alert(33);
         //save the information to the response
-        response[id] = {
+        response.push({
           'id': id,
           'time': time,
           'url_podcast': url_podcast,
           'url_img': url_img,
           'title': title
-        };
+        });
         // alert(response[id]);
       }
       // alert(response);
@@ -205,8 +205,6 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
     // alert(response);
     // alert(JSON.stringify(response));
     sendResponse(response);
-    // alert("b");
-    // sendResponse({a:1});
   }
 });
 
