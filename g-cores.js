@@ -156,7 +156,7 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
         node = $(list[i]);
         node_time = node.find('.showcase_time');
         node_img = node.find('.showcase_img');
-        node_text = node.find('.showcase_test');
+        node_text = node.find('.showcase_text');
         // alert(11);
         // get date time
         node_time.find('span').text('');  //remove the introduction in <span>
@@ -188,16 +188,6 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
       // alert(response);
       return response;
     }
-    // function readGadioList(data, textStatus, jqXHR){
-    //   // alert("1");
-    //   nodes = $(jqXHR.responseText).find('.row')[0].children;
-    //   response = readGadioInfomation(nodes);
-    //   // alert(response[20145].id);
-    //   // alert("3");
-    //   sendResponse(response[20145].id);
-    //   // alert(response[20145].id);
-    // }
-    // alert("a");
     htmlobj = $.ajax({url:getUrlOfGadioList(), async:false});
     // $.get(getUrlOfGadioList(), readGadioList);
     nodes = $(htmlobj.responseText).find('.row')[0].children;;
@@ -210,5 +200,6 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
 
 setInterval(function(){
   checkMSG(getUrlNotificationsAjax(), checkMSGCallback);
+  // TODO: Check if there is a new podcdast
   // collectInfomation("20764");
 }, 5000)

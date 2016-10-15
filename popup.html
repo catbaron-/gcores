@@ -27,6 +27,30 @@
       #main{
         width: 300px;
       }
+      .podcast{
+        clear:both;
+      }
+      .podcast_img img{
+        width:40%;
+        float:left;
+      }
+      .podcast_text{
+        margin-left: 10px;
+        float:left;
+        width: 55%;
+      }
+      .podcast_text:after{
+        background: #abc;
+      }
+      .podcast_title{
+        width:145px;
+        margin-bottom: 10px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
     </style>
 
     <!--
@@ -42,9 +66,18 @@
         <div class="button" id="mail"></div>
         <div class="button" id="notification"></div>
       </div>
-      <div id="play_list" class="main_window"></div>
+      <div id="gadio_list" class="main_window">
+        <div class="podcast" data="20967">
+          <div class="podcast_img">
+            <img src="http://alioss.g-cores.com/uploads/volume/cff3bc19-cf8b-42e5-b166-14cd4d235547_hs.jpg">
+          </div>
+          <div class="podcast_text">
+            <div class="podcast_title">内付费系统你买账吗？Gadio News开播！</div>
+            <div class="podcast_time">2016-10-13</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="frame" style="display:none"></div>
   </body>
   <script src="jquery.min.js"></script>
   <script src="popup.js"></script>
