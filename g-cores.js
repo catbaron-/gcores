@@ -5,7 +5,7 @@ url_gcores = "http://www.g-cores.com";
 // url_notifications = url_gcores+"/setting/notifications";
 // url_inbox = url_gcores+"/inbox";
 
-// information of podcasts
+// Info of podcasts
 var podcast_info = JSON.parse("{}");
 
 // Number of notifications
@@ -95,38 +95,34 @@ function checkMSGCallback(xhr, success){
 }
 
 // Given the url of play pae of one podcast, this function will collect
-// information including:
-//  slides : [{image_url, intro_text}]
-//  time segments: []
-//  url of audio file
-function collectInfomation(id){
-  url = "http://www.g-cores.com/volumes/"+id;
-  slides = new Array();
-  time_segments = new Array();
-  // console.log("read "+url);
+// and return Info as json data:
+function collectInfo(id){
+  url = getUrlOfPodcastPage(id);
+  podcast_info = {'test':2333};
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", url, true);
+  xhr.open("GET", url, false);
   xhr.setRequestHeader("X-Requested-With","XMLHttpRequest");
   xhr.setRequestHeader("Accept","application/xml, text/javascript, */*; q=0.01");
   xhr.onreadystatechange = function(){
     if(xhr.readyState == 4){
-      // Get the html page, collect the information
-      // The information is organized as Json data
+      // Get the html page, collect the Info
+      // The Info is organized as Json data
       // TODO: comment about the content of the Json data
-      doc = xhr.response.split("new AudioPlayer(")[1].split(/\);\s*}\s*\)\s*<\/script>/)[0];
+      doc = xhr.responseText.split("new AudioPlayer(")[1].split(/\);\s*}\s*\)\s*<\/script>/)[0];
       doc = doc.replace("mediaSrc","\"mediaSrc\"").replace("timelines","\"timelines\"");
       doc = doc.replace("jplayerSwf","\"jplayerSwf\"").replace("audioId","\"audioId\"");
       doc = doc.replace("'/jplayer.swf'","\"/jplayer.swf\"");
-      // console.log(doc);
-      podcast_info.id = JSON.parse(doc);
+      podcast_info = JSON.parse(doc);
+      podcast_info.last_time = 0;
     }else{
-      // Show the error message
+      // TODO: Show the error message
     }
   }
   xhr.onerror = function(){
-    // Show the error message
+    // TODO: Show the error message
   }
   xhr.send();
+  return podcast_info;
 }
 
 
@@ -137,10 +133,11 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
     response = {'notification_size':notification_size, 'mail_size':mail_size}
     sendResponse(response);
   }
-  if('GetPodcastInfomation' == message.msg){
-    // Request for gadio's information
-    response = podcast_info.id;
-    sendResponse(2333);
+  if('GetPodcastInfo' == message.msg){
+    // Request for gadio's Info
+    console.log(message.data.id);
+    response = collectInfo(message.data.id);
+    sendResponse(response);
   }
   if('GetGadioList' == message.msg){
     // Request for the list of Gadio
@@ -148,16 +145,13 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
     // parameter:
     //  list: array of DOM nodeList
     //  response: return to the popup page
-    function readGadioInfomation(list){
+    function readGadioInfo(list){
       response = new Array;
-      // alert("2");
       for(var i=0; i<list.length; i++){
-        // alert(i);
         node = $(list[i]);
         node_time = node.find('.showcase_time');
         node_img = node.find('.showcase_img');
         node_text = node.find('.showcase_text');
-        // alert(11);
         // get date time
         node_time.find('span').text('');  //remove the introduction in <span>
         time = node_time.text().trim()
@@ -165,17 +159,12 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
         // get the urls of the cover image and the podcast
         url_podcast = node_img.find('a').attr('href');
         url_img = node_img.find('img').attr('src');
-        // alert(22);
-        // alert(url_podcast);
         // get the id of the podcast
         slices = url_podcast.split('/');
-        // alert(221);
         id = slices[slices.length-1];
-        // alert(222);
         // get the title
         title = node_text.find('a').text().trim();
-        // alert(33);
-        //save the information to the response
+        //save the Info to the response
         response.push({
           'id': id,
           'time': time,
@@ -183,17 +172,12 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
           'url_img': url_img,
           'title': title
         });
-        // alert(response[id]);
       }
-      // alert(response);
       return response;
     }
     htmlobj = $.ajax({url:getUrlOfGadioList(), async:false});
-    // $.get(getUrlOfGadioList(), readGadioList);
     nodes = $(htmlobj.responseText).find('.row')[0].children;;
-    response = readGadioInfomation(nodes);
-    // alert(response);
-    // alert(JSON.stringify(response));
+    response = readGadioInfo(nodes);
     sendResponse(response);
   }
 });
@@ -201,5 +185,5 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
 setInterval(function(){
   checkMSG(getUrlNotificationsAjax(), checkMSGCallback);
   // TODO: Check if there is a new podcdast
-  // collectInfomation("20764");
+  // collectInfo("20764");
 }, 5000)

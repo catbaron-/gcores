@@ -1,0 +1,1179 @@
+00 {
+    "mediaSrc": {
+        "mp3": ["http://alioss.g-cores.com/uploads/audio/04bb0464-e89f-4e1b-ab45-e7fd584ee937.mp3"]
+    },
+    "timelines": [{
+        "id": 29538,
+        "media_id": 664,
+        "at": 2,
+        "title": "APP来啦！",
+        "asset": {
+            "url": "/uploads/timeline/8ba04a0a-315a-4119-a1d0-fd23d47f8381.jpg",
+            "limit": {
+                "url": "/uploads/timeline/8ba04a0a-315a-4119-a1d0-fd23d47f8381_limit.jpg"
+            }
+        },
+        "content": "机核App 1.0 iOS版本在昨晚终于顺利上线了！感谢大家长久的等待，这是我们最初版本的APP，提供您可以在机核获取内容等基础的功能。希望大家在使用后可以在在这留言告诉我们你发现的bug还有建议！您对我们最大的支持莫过于在App Store评星和留言！",
+        "quote_href": "",
+        "created_at": "2016-10-09T11:36:25.000+08:00",
+        "updated_at": "2016-10-09T16:02:57.000+08:00"
+    }, {
+        "id": 28938,
+        "media_id": 664,
+        "at": 18,
+        "title": "开场BGM",
+        "asset": {
+            "url": "/uploads/timeline/7571d399-a432-467c-a0cb-0f4f859139f0.jpg",
+            "limit": {
+                "url": "/uploads/timeline/7571d399-a432-467c-a0cb-0f4f859139f0_limit.jpg"
+            }
+        },
+        "content": "大家好，您现在听到的还是永恒之柱的BGM。永恒之柱的第二期来了，麦教授在本期节目书接上文，继续为你讲述永恒之柱的大世界。",
+        "quote_href": "",
+        "created_at": "2016-09-27T15:18:18.000+08:00",
+        "updated_at": "2016-10-09T15:58:50.000+08:00"
+    }, {
+        "id": 28939,
+        "media_id": 664,
+        "at": 48,
+        "title": "上期节目",
+        "asset": {
+            "url": "/uploads/timeline/caddd774-dac6-4f65-9156-b508a5bd4be8.jpg",
+            "limit": {
+                "url": "/uploads/timeline/caddd774-dac6-4f65-9156-b508a5bd4be8_limit.jpg"
+            }
+        },
+        "content": "在节目的第一期里，麦教授对于《永恒之柱》的开发经历，世界观角色，游戏世界观里的地理、种族、神明的文化背景进行了详细的描述。而这还远远不够，游戏世界中的历史，以及两场重要的战役也是本作中非常重要的大事件，于是本期我们书接上文，就来聊聊游戏中的大事件。",
+        "quote_href": "http://www.g-cores.com/volumes/20692",
+        "created_at": "2016-09-27T15:19:31.000+08:00",
+        "updated_at": "2016-10-09T15:49:40.000+08:00"
+    }, {
+        "id": 29539,
+        "media_id": 664,
+        "at": 61,
+        "title": "并没有那么多！",
+        "asset": {
+            "url": "/uploads/timeline/a124c3d4-3d03-40fe-8be5-9a62e30cd460.jpg",
+            "limit": {
+                "url": "/uploads/timeline/a124c3d4-3d03-40fe-8be5-9a62e30cd460_limit.jpg"
+            }
+        },
+        "content": "其实只有两期啊哈哈，并没有十二期那么多！",
+        "quote_href": "",
+        "created_at": "2016-10-09T11:39:50.000+08:00",
+        "updated_at": "2016-10-11T08:36:08.000+08:00"
+    }, {
+        "id": 29541,
+        "media_id": 664,
+        "at": 105,
+        "title": "Aedyr Empire",
+        "asset": {
+            "url": "/uploads/timeline/2db67995-56ea-4a5a-a5fe-3a059b5e0283.jpg",
+            "limit": {
+                "url": "/uploads/timeline/2db67995-56ea-4a5a-a5fe-3a059b5e0283_limit.jpg"
+            }
+        },
+        "content": "在上期节目中我们介绍到了游戏中有一个地方叫做：“鹿丛帝国”（Aedyr本身为“鹿”）的意思。遍布这片土地的小部落们很了解统一是种族生存延续的根本，所以每个部落选出一位首领担任国王的谋士。他们本是部落之王，但只效忠于唯一的国王。而鹿丛帝国也因此而繁荣了起来。图为现在鹿丛帝国的人类。",
+        "quote_href": "",
+        "created_at": "2016-10-09T11:46:14.000+08:00",
+        "updated_at": "2016-10-09T15:49:56.000+08:00"
+    }, {
+        "id": 29542,
+        "media_id": 664,
+        "at": 123,
+        "title": "领土扩张",
+        "asset": {
+            "url": "/uploads/timeline/7299f38f-0699-4987-b393-716690931b35.png",
+            "limit": {
+                "url": "/uploads/timeline/7299f38f-0699-4987-b393-716690931b35_limit.png"
+            }
+        },
+        "content": "在纪元2602年，Aedyr探险家从大洋返回，讲述了遗迹的传说，还有那里的宝藏和宽阔富饶的土地非常适合种植vorlas。探险家警告帝国国王，称那里的当地人并不友好，但是帝王却认为这是一个扩张帝国和在新大陆贸易的好机会。在接下来的20年中，Dyrwood成为了调查，绘制地图和殖民统治的地区，在2623 AI中Aedyr Empire第一个永久殖民地建立。",
+        "quote_href": "http://pillarsofeternity.gamepedia.com/Aedyr_Empire",
+        "created_at": "2016-10-09T11:50:48.000+08:00",
+        "updated_at": "2016-10-11T08:36:46.000+08:00"
+    }, {
+        "id": 29543,
+        "media_id": 664,
+        "at": 175,
+        "title": "灵魂风暴",
+        "asset": {
+            "url": "/uploads/timeline/6d337d97-6700-468d-8f2a-67d474502669.jpg",
+            "limit": {
+                "url": "/uploads/timeline/6d337d97-6700-468d-8f2a-67d474502669_limit.jpg"
+            }
+        },
+        "content": "格兰法斯人称其为Bîaŵac",
+        "quote_href": "",
+        "created_at": "2016-10-09T12:00:08.000+08:00",
+        "updated_at": "2016-10-13T09:17:04.000+08:00"
+    }, {
+        "id": 29544,
+        "media_id": 664,
+        "at": 191,
+        "title": "格兰法斯人",
+        "asset": {
+            "url": "/uploads/timeline/b27b2f5c-4f84-458c-a417-5b2035d90c4d.jpg",
+            "limit": {
+                "url": "/uploads/timeline/b27b2f5c-4f84-458c-a417-5b2035d90c4d_limit.jpg"
+            }
+        },
+        "content": "上期节目中，我们介绍有介绍到了格兰法斯部落，一共有六个主要的部落组成，由格兰法人治理。而每一个部落都受命于一位anamfath（灵魂王子）统治，并且听从council of raoithe （智者）的建议。",
+        "quote_href": "http://pillarsofeternity.gamepedia.com/Glanfathan",
+        "created_at": "2016-10-09T12:32:33.000+08:00",
+        "updated_at": "2016-10-09T15:50:29.000+08:00"
+    }, {
+        "id": 29545,
+        "media_id": 664,
+        "at": 204,
+        "title": "永久性殖民地Dyrwood成立",
+        "asset": {
+            "url": "/uploads/timeline/25c6660e-b27e-4907-8c01-1cdea44f3d64.jpg",
+            "limit": {
+                "url": "/uploads/timeline/25c6660e-b27e-4907-8c01-1cdea44f3d64_limit.jpg"
+            }
+        },
+        "content": "2602年，阿迪尔人来到东至角，2623年，第一块永久性殖民地迪尔伍德（Dyrwood）成立。同年，南方的维利亚大帝国（the Grand Empire of Vailia）也在东至角南部建了一些殖民地，这些殖民地后来组成了维利亚邦联（the Vailian Republics）。",
+        "quote_href": "http://tieba.baidu.com/p/3684900782",
+        "created_at": "2016-10-09T12:40:43.000+08:00",
+        "updated_at": "2016-10-09T15:50:37.000+08:00"
+    }, {
+        "id": 29547,
+        "media_id": 664,
+        "at": 308,
+        "title": "羽精",
+        "asset": {
+            "url": "/uploads/timeline/96f4cba9-7c1e-425c-8b56-0fc1b434eed9.png",
+            "limit": {
+                "url": "/uploads/timeline/96f4cba9-7c1e-425c-8b56-0fc1b434eed9_limit.png"
+            }
+        },
+        "content": "上期我们介绍到，羽精身材非常矮小。浑身长着毛发，在永恒之柱的世界里，羽精这个种族是受到歧视的。所以它们索性就回到了原来的丛林去生活。并且它们擅长用毒药和陷阱，这就更加剧了它们的名声败裂。",
+        "quote_href": "",
+        "created_at": "2016-10-09T14:33:51.000+08:00",
+        "updated_at": "2016-10-09T15:50:58.000+08:00"
+    }, {
+        "id": 29548,
+        "media_id": 664,
+        "at": 382,
+        "title": "Eír Glanfath",
+        "asset": {
+            "url": "/uploads/timeline/0d951dec-7b76-44d2-871e-abefb57a7445.jpg",
+            "limit": {
+                "url": "/uploads/timeline/0d951dec-7b76-44d2-871e-abefb57a7445_limit.jpg"
+            }
+        },
+        "content": "Eír Glanfath帝国，完全被沿最南部的Bael River的丛林所覆盖。而这里也是早出现的同名王国的一部分。当时的人口是Engwithan人。现在已经消失和死亡了两千年……现在这个地区被 Glanfathan人定居。",
+        "quote_href": "",
+        "created_at": "2016-10-09T14:48:32.000+08:00",
+        "updated_at": "2016-10-09T15:51:08.000+08:00"
+    }, {
+        "id": 29549,
+        "media_id": 664,
+        "at": 421,
+        "title": "碎石之战",
+        "asset": {
+            "url": "/uploads/timeline/c6b67185-591c-4b29-91ce-baedffce0368.jpg",
+            "limit": {
+                "url": "/uploads/timeline/c6b67185-591c-4b29-91ce-baedffce0368_limit.jpg"
+            }
+        },
+        "content": "在2626 AI，碎石之战正式打响。这是大约在永恒之柱故事开始的197年前。",
+        "quote_href": "",
+        "created_at": "2016-10-09T14:54:50.000+08:00",
+        "updated_at": "2016-10-09T15:51:15.000+08:00"
+    }, {
+        "id": 29550,
+        "media_id": 664,
+        "at": 432,
+        "title": "黑树之战",
+        "asset": {
+            "url": "/uploads/timeline/07cd2df5-e83f-44ed-b47e-eb85bf9f520f.jpg",
+            "limit": {
+                "url": "/uploads/timeline/07cd2df5-e83f-44ed-b47e-eb85bf9f520f_limit.jpg"
+            }
+        },
+        "content": "黑树之战发生在碎石之战的26年之后，永恒之柱故事发生的171年前。这个战争是在 Dyrwood，Aedyr Empire以及Eír Glanfath之间的战斗！",
+        "quote_href": "",
+        "created_at": "2016-10-09T14:57:30.000+08:00",
+        "updated_at": "2016-10-09T15:51:22.000+08:00"
+    }, {
+        "id": 29551,
+        "media_id": 664,
+        "at": 535,
+        "title": "Admeth",
+        "asset": {
+            "url": "/uploads/timeline/669769e4-ff20-418c-b279-9acaa878da5a.jpg",
+            "limit": {
+                "url": "/uploads/timeline/669769e4-ff20-418c-b279-9acaa878da5a_limit.jpg"
+            }
+        },
+        "content": "在永恒之柱的官方维基中，黑树之战的词条在领导者这块一个是\nAdmeth Hadret，一个是Galven Regd，正可谓棋逢对手。",
+        "quote_href": "",
+        "created_at": "2016-10-09T15:34:43.000+08:00",
+        "updated_at": "2016-10-11T06:51:34.000+08:00"
+    }, {
+        "id": 29552,
+        "media_id": 664,
+        "at": 583,
+        "title": "殖民者的胜利",
+        "asset": {
+            "url": "/uploads/timeline/8dc6d502-dd0f-44f1-87f9-a70347b8e181.jpg",
+            "limit": {
+                "url": "/uploads/timeline/8dc6d502-dd0f-44f1-87f9-a70347b8e181_limit.jpg"
+            }
+        },
+        "content": "最后一把火，烧掉了所有的森林，烧焦的树木变成了黑色。于是该战役起名为黑树之战。战争初期的情况可以参考一下《指环王2：双塔奇兵》的片段。",
+        "quote_href": "",
+        "created_at": "2016-10-09T15:42:26.000+08:00",
+        "updated_at": "2016-10-11T06:56:43.000+08:00"
+    }, {
+        "id": 29556,
+        "media_id": 664,
+        "at": 605,
+        "title": "殖民者与原住民的合作",
+        "asset": {
+            "url": "/uploads/timeline/2e44bcbe-d48e-4ecb-a3d9-b37d6175d24d.jpg",
+            "limit": {
+                "url": "/uploads/timeline/2e44bcbe-d48e-4ecb-a3d9-b37d6175d24d_limit.jpg"
+            }
+        },
+        "content": "在黑树之战十周年之际（2662 AI），Admeth Hadret 不仅在 Dyrwood 废除了奴隶制，而且还释放了 Galven Regd 。殖民者与原住民的关系可以参考北美殖民地的早期历史，虽然有矛盾，但是更多的是合作。",
+        "quote_href": "",
+        "created_at": "2016-10-10T00:35:09.000+08:00",
+        "updated_at": "2016-10-11T07:00:18.000+08:00"
+    }, {
+        "id": 29557,
+        "media_id": 664,
+        "at": 645,
+        "title": "故意破坏遗迹",
+        "asset": {
+            "url": "/uploads/timeline/d798e948-42d2-4519-aaaa-4e510c195ac1.jpg",
+            "limit": {
+                "url": "/uploads/timeline/d798e948-42d2-4519-aaaa-4e510c195ac1_limit.jpg"
+            }
+        },
+        "content": "鹿丛帝国的皇帝（fercönyng）对 Admeth Hadret 的做法非常不满意，于是他重新谋划了一套方案，继续掠夺遗迹里留存的古老法宝。皇帝接近 Admeth 统治下的政敌，说服他们召集人马秘密破坏遗迹。游戏序章，你操作的主角就会遇到格兰法斯人，他们会控诉鹿丛帝国与殖民者历史上犯下的罪行。",
+        "quote_href": "",
+        "created_at": "2016-10-10T00:48:53.000+08:00",
+        "updated_at": "2016-10-11T07:02:18.000+08:00"
+    }, {
+        "id": 29558,
+        "media_id": 664,
+        "at": 680,
+        "title": "查出幕后真凶",
+        "asset": {
+            "url": "/uploads/timeline/1c674de4-1b81-41a7-8d95-844d25d4141a.png",
+            "limit": {
+                "url": "/uploads/timeline/1c674de4-1b81-41a7-8d95-844d25d4141a_limit.png"
+            }
+        },
+        "content": "在众多 Glanfathan 领导者的帮助下，Admeth Hadret 终于查出了袭击遗迹计划的幕后真凶，即是 Aedyr 帝国的皇帝。",
+        "quote_href": "",
+        "created_at": "2016-10-10T00:54:28.000+08:00",
+        "updated_at": "2016-10-11T07:04:41.000+08:00"
+    }, {
+        "id": 29559,
+        "media_id": 664,
+        "at": 700,
+        "title": "Dyrwood需要独立",
+        "asset": {
+            "url": "/uploads/timeline/721c38d8-bbcf-4329-80e0-5b1815723f63.png",
+            "limit": {
+                "url": "/uploads/timeline/721c38d8-bbcf-4329-80e0-5b1815723f63_limit.png"
+            }
+        },
+        "content": "在 AI 2668 年，Admeth Hadret 宣告 Dyrwood 已经忍受太多，Aedyr 帝国的皇帝不再被认可，Dyrwood 现在是一个独立的自治区。图为玩家推测的Eora的世界地图，还包括两颗卫星；从中可以看出鹿丛帝国与迪尔伍德隔着大洋。",
+        "quote_href": "",
+        "created_at": "2016-10-10T01:02:49.000+08:00",
+        "updated_at": "2016-10-11T07:06:38.000+08:00"
+    }, {
+        "id": 29560,
+        "media_id": 664,
+        "at": 765,
+        "title": "Admeth阵亡",
+        "asset": {
+            "url": "/uploads/timeline/b637c683-b22a-4c69-bbd6-9c43017bc59b.png",
+            "limit": {
+                "url": "/uploads/timeline/b637c683-b22a-4c69-bbd6-9c43017bc59b_limit.png"
+            }
+        },
+        "content": "年轻有为的 Admeth Hadret 在一次战斗中阵亡，Dyrwood 反抗军遭受重大损失。鹿丛皇帝立即增派两倍的兵力到战场。游戏中有一种叫Admeths wyrt的草药就是以这位独立战争领袖命名的。",
+        "quote_href": "",
+        "created_at": "2016-10-10T01:05:11.000+08:00",
+        "updated_at": "2016-10-11T07:10:17.000+08:00"
+    }, {
+        "id": 29561,
+        "media_id": 664,
+        "at": 820,
+        "title": "昂德拉的馈赠",
+        "asset": {
+            "url": "/uploads/timeline/145d6829-ebb9-44d1-b1d0-e96a8260bff5.jpg",
+            "limit": {
+                "url": "/uploads/timeline/145d6829-ebb9-44d1-b1d0-e96a8260bff5_limit.jpg"
+            }
+        },
+        "content": "这就是昂德拉的馈赠（Ondra's Gift），这块湿地比海平面要低，但适宜做定居点。大家可以在图中看到很多绿萤石。",
+        "quote_href": "",
+        "created_at": "2016-10-10T01:19:34.000+08:00",
+        "updated_at": "2016-10-11T07:12:32.000+08:00"
+    }, {
+        "id": 29562,
+        "media_id": 664,
+        "at": 860,
+        "title": "“爱人之潮”来临",
+        "asset": {
+            "url": "/uploads/timeline/dd6ab060-29ca-4430-b2fc-c6fd77d218c5.GIF",
+            "limit": {
+                "url": "/uploads/timeline/dd6ab060-29ca-4430-b2fc-c6fd77d218c5_limit.GIF"
+            }
+        },
+        "content": "格兰法斯（Glanfathan）的占星学家早已预言“爱人之潮”的来临，鹿丛帝国的舰队被毁灭性的潮水冲向昂德拉的馈赠，不仅舰队自身被绿萤石撞烂，带来的浪潮袭卷了陆地的帝国部队，几乎吞没整个帝国军队。大家可以脑补一下魔兽大灾变开场动画死亡之翼引发的海啸。",
+        "quote_href": "",
+        "created_at": "2016-10-10T01:28:45.000+08:00",
+        "updated_at": "2016-10-11T07:17:28.000+08:00"
+    }, {
+        "id": 29563,
+        "media_id": 664,
+        "at": 900,
+        "title": "反抗湾",
+        "asset": {
+            "url": "/uploads/timeline/39819f5b-f8e7-4022-ad7b-a6e1ca072f10.jpg",
+            "limit": {
+                "url": "/uploads/timeline/39819f5b-f8e7-4022-ad7b-a6e1ca072f10_limit.jpg"
+            }
+        },
+        "content": "这场耗时4年（2668 AI to 2672 AI）的战争便是反抗战争（War of Defiance），迪尔伍德地区也正式独立，成为自治领。",
+        "quote_href": "",
+        "created_at": "2016-10-10T01:40:48.000+08:00",
+        "updated_at": "2016-10-11T07:20:12.000+08:00"
+    }, {
+        "id": 29619,
+        "media_id": 664,
+        "at": 930,
+        "title": "反抗湾",
+        "asset": {
+            "url": "/uploads/timeline/83c777d0-c885-4de1-9e86-3d360267dd92.jpg",
+            "limit": {
+                "url": "/uploads/timeline/83c777d0-c885-4de1-9e86-3d360267dd92_limit.jpg"
+            }
+        },
+        "content": "为了纪念这场战争，迪尔伍德的都城定名为“反抗湾”。",
+        "quote_href": "",
+        "created_at": "2016-10-11T07:24:00.000+08:00",
+        "updated_at": "2016-10-13T09:19:32.000+08:00"
+    }, {
+        "id": 29565,
+        "media_id": 664,
+        "at": 990,
+        "title": "志愿者全部死亡",
+        "asset": {
+            "url": "/uploads/timeline/1824b2b6-abbc-469c-b7b2-f088d1b76b36.jpg",
+            "limit": {
+                "url": "/uploads/timeline/1824b2b6-abbc-469c-b7b2-f088d1b76b36_limit.jpg"
+            }
+        },
+        "content": "在 AI 2704 年有一场意外，十二名志愿者在 Baelreach 参与了灵魂研究的研究项目，最后全部意外死亡，成为活尸。按现在的话来说，就是丧失，不对，丧尸。",
+        "quote_href": "",
+        "created_at": "2016-10-10T02:05:59.000+08:00",
+        "updated_at": "2016-10-11T07:28:44.000+08:00"
+    }, {
+        "id": 29567,
+        "media_id": 664,
+        "at": 1045,
+        "title": "反抗湾的贫民窟",
+        "asset": {
+            "url": "/uploads/timeline/57f3e53a-16e5-40a0-8f41-8bca38152a8e.jpg",
+            "limit": {
+                "url": "/uploads/timeline/57f3e53a-16e5-40a0-8f41-8bca38152a8e_limit.jpg"
+            }
+        },
+        "content": "为了整个行业的持续发展，大部分灵魂学者们选择搬到反抗湾（Defiance Bay）的贫困地区进行学术研究，另外一部分学者选择把布拉肯伯里作为日常活动区域。",
+        "quote_href": "",
+        "created_at": "2016-10-10T02:21:37.000+08:00",
+        "updated_at": "2016-10-11T07:30:43.000+08:00"
+    }, {
+        "id": 29566,
+        "media_id": 664,
+        "at": 1065,
+        "title": "疗养院",
+        "asset": {
+            "url": "/uploads/timeline/97851abd-749f-4ea7-b5b7-a54f025ab891.jpg",
+            "limit": {
+                "url": "/uploads/timeline/97851abd-749f-4ea7-b5b7-a54f025ab891_limit.jpg"
+            }
+        },
+        "content": "布拉肯伯里区（Brackenbury District）新建的疗养院（Sanitarium）便是灵魂学者的研究机构，在地图的西北角。",
+        "quote_href": "",
+        "created_at": "2016-10-10T02:13:43.000+08:00",
+        "updated_at": "2016-10-11T07:33:43.000+08:00"
+    }, {
+        "id": 29599,
+        "media_id": 664,
+        "at": 1100,
+        "title": "游戏故事发生的年代",
+        "asset": {
+            "url": "/uploads/timeline/9e8ac23a-9f7e-4386-8c90-c5261013fd29.jpg",
+            "limit": {
+                "url": "/uploads/timeline/9e8ac23a-9f7e-4386-8c90-c5261013fd29_limit.jpg"
+            }
+        },
+        "content": "《永恒之柱》真正游戏故事发生的年代是从 AI 2823 年开始的，而麦教授讲的这些地区冲突和战争都是发生在游戏故事前200年内的。当你随着商队来到这块地区时，你看到的是一个满目疮痍的世界。",
+        "quote_href": "",
+        "created_at": "2016-10-11T00:16:05.000+08:00",
+        "updated_at": "2016-10-11T07:35:51.000+08:00"
+    }, {
+        "id": 29600,
+        "media_id": 664,
+        "at": 1125,
+        "title": "雷亚塞拉斯",
+        "asset": {
+            "url": "/uploads/timeline/4f46a50b-3ad5-4bc4-9ad6-d440c84a9725.png",
+            "limit": {
+                "url": "/uploads/timeline/4f46a50b-3ad5-4bc4-9ad6-d440c84a9725_limit.png"
+            }
+        },
+        "content": "雷亚塞拉斯（Readceras）位于迪尔伍德东北方向，之前也是鹿丛帝国的殖民地，后来成为独立的神权独裁国家。",
+        "quote_href": "",
+        "created_at": "2016-10-11T00:31:29.000+08:00",
+        "updated_at": "2016-10-11T07:36:52.000+08:00"
+    }, {
+        "id": 29601,
+        "media_id": 664,
+        "at": 1150,
+        "title": "农民Waidwen",
+        "asset": {
+            "url": "/uploads/timeline/8896fb9e-c1a7-4d13-82b9-69321c74d58f.jpg",
+            "limit": {
+                "url": "/uploads/timeline/8896fb9e-c1a7-4d13-82b9-69321c74d58f_limit.jpg"
+            }
+        },
+        "content": "一位当地的农民 Waidwen 开始在市中心的广场发表演说，当地政府也没有太多地干预他的活动。虽然当地没人知道他究竟是聪明或是疯子，但是 Waidwen 的演说总能吸引一群狂躁的追随者。这个设定很明显借鉴了耶稣的一些事迹。",
+        "quote_href": "",
+        "created_at": "2016-10-11T00:49:37.000+08:00",
+        "updated_at": "2016-10-11T07:41:39.000+08:00"
+    }, {
+        "id": 29602,
+        "media_id": 664,
+        "at": 1185,
+        "title": "伊欧萨斯",
+        "asset": {
+            "url": "/uploads/timeline/71fc2b80-dc7d-465a-a448-c04104c5d538.jpg",
+            "limit": {
+                "url": "/uploads/timeline/71fc2b80-dc7d-465a-a448-c04104c5d538_limit.jpg"
+            }
+        },
+        "content": "Waidwen 声称光明之神伊欧萨斯（Eothas）在夜晚会将神的旨意传授给他的灵魂。根据伊欧萨斯的旨意，雷亚塞拉斯的民众应该被惩罚，理由是他们对神不够虔诚。图为游戏中可以探索的伊欧萨斯神殿遗址，地面上的标志便象征着伊欧萨斯。",
+        "quote_href": "",
+        "created_at": "2016-10-11T01:21:57.000+08:00",
+        "updated_at": "2016-10-11T07:45:03.000+08:00"
+    }, {
+        "id": 29603,
+        "media_id": 664,
+        "at": 1220,
+        "title": "捉拿Waidwen",
+        "asset": {
+            "url": "/uploads/timeline/39b2315d-cb77-43d9-a7be-376455fdbdd4.jpg",
+            "limit": {
+                "url": "/uploads/timeline/39b2315d-cb77-43d9-a7be-376455fdbdd4_limit.jpg"
+            }
+        },
+        "content": "在一次大规模的演讲过程中，城镇的守卫突然捉拿 Waidwen，并给他带上颈手枷，限制他的自由。罗马帝国也曾逮捕过耶稣。",
+        "quote_href": "",
+        "created_at": "2016-10-11T01:50:17.000+08:00",
+        "updated_at": "2016-10-11T07:46:30.000+08:00"
+    }, {
+        "id": 29606,
+        "media_id": 664,
+        "at": 1320,
+        "title": "雷亚塞拉斯神国",
+        "asset": {
+            "url": "/uploads/timeline/0d45ae2d-b481-4de5-b602-b15c8989d016.jpg",
+            "limit": {
+                "url": "/uploads/timeline/0d45ae2d-b481-4de5-b602-b15c8989d016_limit.jpg"
+            }
+        },
+        "content": "Waidwen 带领起义军仅用了数天时间就从殖民者手中夺回了政权，并定国名为雷亚塞拉斯神国（Divine Kingdom of Readceras）；他登基为神王，同时也被民众称为 St. Waidwen。这个国家位于地图东北角。",
+        "quote_href": "",
+        "created_at": "2016-10-11T02:04:37.000+08:00",
+        "updated_at": "2016-10-11T07:49:04.000+08:00"
+    }, {
+        "id": 29607,
+        "media_id": 664,
+        "at": 1345,
+        "title": "进攻Dyrwood",
+        "asset": {
+            "url": "/uploads/timeline/b048e961-bd00-412f-92c6-bbc2263569ab.jpg",
+            "limit": {
+                "url": "/uploads/timeline/b048e961-bd00-412f-92c6-bbc2263569ab_limit.jpg"
+            }
+        },
+        "content": "Waidwen 并没有就此停止战争，反而率领军队进攻西南方向的 Dyrwood，承诺要“解放” Dyrwood 地区。图片仅供参考。",
+        "quote_href": "",
+        "created_at": "2016-10-11T02:11:27.000+08:00",
+        "updated_at": "2016-10-13T09:34:18.000+08:00"
+    }, {
+        "id": 29608,
+        "media_id": 664,
+        "at": 1375,
+        "title": "伊欧萨斯之光",
+        "asset": {
+            "url": "/uploads/timeline/b4c0fecd-1390-4e79-8335-c1a5c8f2fc60.jpg",
+            "limit": {
+                "url": "/uploads/timeline/b4c0fecd-1390-4e79-8335-c1a5c8f2fc60_limit.jpg"
+            }
+        },
+        "content": "St. Waidwen 在战场上化身为光明之神伊欧萨斯（Eothas），念咒召唤出伊欧萨斯之光，瞬间将战场上数百名敌人烧成灰烬……这简直就是美漫的场景……",
+        "quote_href": "",
+        "created_at": "2016-10-11T02:19:56.000+08:00",
+        "updated_at": "2016-10-11T07:55:12.000+08:00"
+    }, {
+        "id": 29609,
+        "media_id": 664,
+        "at": 1420,
+        "title": "“神锤”",
+        "asset": {
+            "url": "/uploads/timeline/69ab1af1-5e10-4b44-a378-1e3e31b42c55.jpg",
+            "limit": {
+                "url": "/uploads/timeline/69ab1af1-5e10-4b44-a378-1e3e31b42c55_limit.jpg"
+            }
+        },
+        "content": "Dyrwood 抵抗者听说 Waidwen 将下一个目标定在 Halgot 城堡。为了结束这场战争，一群祭司和工程师研制出一种足以清除 Waidwen 的炸药。战争和火焰女神 Magran 的追随者也参与了炸弹的研制，这个武器也被称为“神锤”（Godhammer）。可以加入队伍的杜兰斯就是一位马格岚祭司，随着了解的深入你会发现他和神锤的关系……",
+        "quote_href": "",
+        "created_at": "2016-10-11T02:22:45.000+08:00",
+        "updated_at": "2016-10-11T08:02:54.000+08:00"
+    }, {
+        "id": 29610,
+        "media_id": 664,
+        "at": 1460,
+        "title": "“神锤”爆炸威力",
+        "asset": {
+            "url": "/uploads/timeline/7885c2b7-4ab1-4718-8a12-c29737d77884.jpg",
+            "limit": {
+                "url": "/uploads/timeline/7885c2b7-4ab1-4718-8a12-c29737d77884_limit.jpg"
+            }
+        },
+        "content": "感觉和原子弹差不离了……",
+        "quote_href": "",
+        "created_at": "2016-10-11T02:35:12.000+08:00",
+        "updated_at": "2016-10-11T08:01:57.000+08:00"
+    }, {
+        "id": 29611,
+        "media_id": 664,
+        "at": 1475,
+        "title": "“神锤”仅有一颗",
+        "asset": {
+            "url": "/uploads/timeline/6f0c3aa1-ec17-4548-a15a-e3bd1f52a1b5.jpg",
+            "limit": {
+                "url": "/uploads/timeline/6f0c3aa1-ec17-4548-a15a-e3bd1f52a1b5_limit.jpg"
+            }
+        },
+        "content": "由于“神锤”制作的机密不被团队里的任何一个人全部掌握，所以创造“神锤”的技术无法被复制，Dyrwood 仅有一次机会利用“神锤”拯救自己。",
+        "quote_href": "",
+        "created_at": "2016-10-11T02:58:24.000+08:00",
+        "updated_at": "2016-10-11T03:56:53.000+08:00"
+    }, {
+        "id": 29612,
+        "media_id": 664,
+        "at": 1515,
+        "title": "十二名勇士",
+        "asset": {
+            "url": "/uploads/timeline/a9ddf2ae-2872-4f7b-a22a-2bb9d67a1105.jpg",
+            "limit": {
+                "url": "/uploads/timeline/a9ddf2ae-2872-4f7b-a22a-2bb9d67a1105_limit.jpg"
+            }
+        },
+        "content": "十二名 Halgot 城堡士兵被选中负责假装在 Evon Dewr 桥上伏击 Waidwen，引诱且拖住他，为“神锤”炸弹争取足够的时间。当“神锤”爆炸时，神王 Waidwen 恰好站在正确的位置上。",
+        "quote_href": "",
+        "created_at": "2016-10-11T03:00:06.000+08:00",
+        "updated_at": "2016-10-11T03:56:42.000+08:00"
+    }, {
+        "id": 29613,
+        "media_id": 664,
+        "at": 1545,
+        "title": "灰飞烟灭",
+        "asset": {
+            "url": "/uploads/timeline/44fade6a-2cec-4526-aab6-f3e6bbeed7b5.jpg",
+            "limit": {
+                "url": "/uploads/timeline/44fade6a-2cec-4526-aab6-f3e6bbeed7b5_limit.jpg"
+            }
+        },
+        "content": "一声巨响之后，除了已经牺牲的十二名 Dyrwood 勇士，超过五十名雷亚塞拉斯（Readceras）士兵死亡。St. Waidwen 也消失了，他的遗体也没有找到。",
+        "quote_href": "",
+        "created_at": "2016-10-11T03:12:48.000+08:00",
+        "updated_at": "2016-10-11T03:56:31.000+08:00"
+    }, {
+        "id": 29614,
+        "media_id": 664,
+        "at": 1605,
+        "title": "改变凡人对神的观念",
+        "asset": {
+            "url": "/uploads/timeline/b3ca0a9c-0c07-4d6e-bb9d-521116d7d0d5.jpg",
+            "limit": {
+                "url": "/uploads/timeline/b3ca0a9c-0c07-4d6e-bb9d-521116d7d0d5_limit.jpg"
+            }
+        },
+        "content": "无论光明之神伊欧萨斯（Eothas）是被“神锤”炸死或者从 Waidwen 体内离开，逃到神统治的世界，圣人战争（Saint's War）的结束彻底改变了凡人对神的看法。这样说来，Waidwen的朝圣是非常成功的。",
+        "quote_href": "",
+        "created_at": "2016-10-11T03:28:12.000+08:00",
+        "updated_at": "2016-10-11T03:56:06.000+08:00"
+    }, {
+        "id": 29615,
+        "media_id": 664,
+        "at": 1630,
+        "title": "战士埃徳",
+        "asset": {
+            "url": "/uploads/timeline/ee46532a-1265-4555-939a-83d613f69f57.jpg",
+            "limit": {
+                "url": "/uploads/timeline/ee46532a-1265-4555-939a-83d613f69f57_limit.jpg"
+            }
+        },
+        "content": "在游戏初期加入的战士埃徳（Edér）就是光明之神伊欧萨斯（Eothas）信徒，他的哥哥曾经是雷亚塞拉斯（Readceras）圣战军的成员。",
+        "quote_href": "",
+        "created_at": "2016-10-11T03:36:26.000+08:00",
+        "updated_at": "2016-10-11T03:55:52.000+08:00"
+    }, {
+        "id": 29616,
+        "media_id": 664,
+        "at": 1670,
+        "title": "Magran雕像",
+        "asset": {
+            "url": "/uploads/timeline/9ed5e285-c0ef-40ca-91b5-0aba035d78dc.jpg",
+            "limit": {
+                "url": "/uploads/timeline/9ed5e285-c0ef-40ca-91b5-0aba035d78dc_limit.jpg"
+            }
+        },
+        "content": "Magran's Fork 场景里的 Magran 雕像",
+        "quote_href": "",
+        "created_at": "2016-10-11T03:48:43.000+08:00",
+        "updated_at": "2016-10-11T03:55:35.000+08:00"
+    }, {
+        "id": 29617,
+        "media_id": 664,
+        "at": 1680,
+        "title": "永恒之火",
+        "asset": {
+            "url": "/uploads/timeline/e42f7f07-2ac6-42cb-873f-f58d0a1c0cc5.jpg",
+            "limit": {
+                "url": "/uploads/timeline/e42f7f07-2ac6-42cb-873f-f58d0a1c0cc5_limit.jpg"
+            }
+        },
+        "content": "反抗湾（Defiance Bay）的中心城区永恒之火（First Fires）",
+        "quote_href": "",
+        "created_at": "2016-10-11T03:49:46.000+08:00",
+        "updated_at": "2016-10-11T03:55:19.000+08:00"
+    }, {
+        "id": 29568,
+        "media_id": 664,
+        "at": 1762,
+        "title": "Hollowborn",
+        "asset": {
+            "url": "/uploads/timeline/d78d88d4-3c06-40e7-9a84-ded7273208b7.jpg",
+            "limit": {
+                "url": "/uploads/timeline/d78d88d4-3c06-40e7-9a84-ded7273208b7_limit.jpg"
+            }
+        },
+        "content": "在Waidwen死后，一个新时代的产物来到了世界上，就是这个“Hollowborn”。没有灵魂，在婴儿的时候，他不会啼哭，也不会说话，更可怕的是，看起来它并没有意识。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:26:29.000+08:00",
+        "updated_at": "2016-10-10T18:30:36.000+08:00"
+    }, {
+        "id": 29569,
+        "media_id": 664,
+        "at": 1781,
+        "title": "直接饿死",
+        "asset": {
+            "url": "/uploads/timeline/eed03349-6cb6-4bf0-93ff-98e08a144f79.jpg",
+            "limit": {
+                "url": "/uploads/timeline/eed03349-6cb6-4bf0-93ff-98e08a144f79_limit.jpg"
+            }
+        },
+        "content": "因为不会主动进食的原因，很多Hollowborn会直接饿死。而很多人认为，这种产物也许就是Eothas的复仇。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:33:18.000+08:00",
+        "updated_at": "2016-10-10T18:30:42.000+08:00"
+    }, {
+        "id": 29570,
+        "media_id": 664,
+        "at": 1788,
+        "title": "Hylea",
+        "asset": {
+            "url": "/uploads/timeline/1ed4cb6c-46d4-4273-a584-7762ebc0f715.jpg",
+            "limit": {
+                "url": "/uploads/timeline/1ed4cb6c-46d4-4273-a584-7762ebc0f715_limit.jpg"
+            }
+        },
+        "content": "上期节目我们介绍到，Hylea是天空神，她的标志是一个鸟蛋和一双翅膀。象征着新生和天空。而Hollowborn，就是无魂的新生婴儿。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:41:36.000+08:00",
+        "updated_at": "2016-10-10T18:30:50.000+08:00"
+    }, {
+        "id": 29571,
+        "media_id": 664,
+        "at": 1808,
+        "title": "受到了指责",
+        "asset": {
+            "url": "/uploads/timeline/ce66dae0-8def-4842-aa2f-2692c0aeef26.jpg",
+            "limit": {
+                "url": "/uploads/timeline/ce66dae0-8def-4842-aa2f-2692c0aeef26_limit.jpg"
+            }
+        },
+        "content": "许多的光之神的教堂都被烧焦了，他的追随者们也被纷纷猎杀。而且很多生出Hollowborn的母亲也统统被指责，但其实这并不是她们的锅。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:46:36.000+08:00",
+        "updated_at": "2016-10-10T18:30:56.000+08:00"
+    }, {
+        "id": 29572,
+        "media_id": 664,
+        "at": 1835,
+        "title": "注入动物的灵魂",
+        "asset": {
+            "url": "/uploads/timeline/fb8e7018-6996-4519-b926-725686fc2ace.jpg",
+            "limit": {
+                "url": "/uploads/timeline/fb8e7018-6996-4519-b926-725686fc2ace_limit.jpg"
+            }
+        },
+        "content": "有一个方法的建议是将这些Hollowborn的身体里注入动物的灵魂。虽然这也有一定风险，但是这个实验的理论基础在于，动物的灵魂没有人格，所以孩子们就可以在这张灵魂的白纸上书写自己的色彩。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:49:07.000+08:00",
+        "updated_at": "2016-10-10T18:31:04.000+08:00"
+    }, {
+        "id": 29573,
+        "media_id": 664,
+        "at": 1858,
+        "title": "救赎",
+        "asset": {
+            "url": "/uploads/timeline/2a08d56c-9c57-4141-b6fc-5a3dce23255d.jpg",
+            "limit": {
+                "url": "/uploads/timeline/2a08d56c-9c57-4141-b6fc-5a3dce23255d_limit.jpg"
+            }
+        },
+        "content": "农民用自己的家畜，也有些用的是鱼的灵魂，也有些用的是他们打猎的猎物的灵魂，救赎（Salvation）的过程进展的很顺利。Hollowborn的问题暂时的就这样告一段落了。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:52:05.000+08:00",
+        "updated_at": "2016-10-10T18:31:11.000+08:00"
+    }, {
+        "id": 29574,
+        "media_id": 664,
+        "at": 1872,
+        "title": "长大之后",
+        "asset": {
+            "url": "/uploads/timeline/3f306b46-b887-43e1-a9bf-475c5b3b1e90.jpg",
+            "limit": {
+                "url": "/uploads/timeline/3f306b46-b887-43e1-a9bf-475c5b3b1e90_limit.jpg"
+            }
+        },
+        "content": "但是过了几年，这些被注入动物灵魂的Hollowborn逐渐长大了，“救赎”的副作用就开始展现了出来——孩子们不会适应社会（想想也是，因为注入的是动物的灵魂），而且没有隐私的概念（动物不也是这样么）。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:54:51.000+08:00",
+        "updated_at": "2016-10-10T18:31:19.000+08:00"
+    }, {
+        "id": 29575,
+        "media_id": 664,
+        "at": 1891,
+        "title": "羽精女孩",
+        "asset": {
+            "url": "/uploads/timeline/2702baf6-7e0a-4106-b9c0-db15b9eb4ccc.jpg",
+            "limit": {
+                "url": "/uploads/timeline/2702baf6-7e0a-4106-b9c0-db15b9eb4ccc_limit.jpg"
+            }
+        },
+        "content": "第一个进入青春期的孩子是一个羽精种族（不好的事又落在了一个不招人待见的种族上）的女孩。她直接成长为一名怪物！嘴唇外露出了獠牙，皮肤惨白。经常外出捕猎吃生肉。而直到最后，她把自己家里的所有人都杀了。",
+        "quote_href": "",
+        "created_at": "2016-10-10T16:57:39.000+08:00",
+        "updated_at": "2016-10-10T18:31:26.000+08:00"
+    }, {
+        "id": 29576,
+        "media_id": 664,
+        "at": 1906,
+        "title": "Wicht",
+        "asset": {
+            "url": "/uploads/timeline/880c6d3f-eb3f-433a-8d39-0293807d7699.jpg",
+            "limit": {
+                "url": "/uploads/timeline/880c6d3f-eb3f-433a-8d39-0293807d7699_limit.jpg"
+            }
+        },
+        "content": "图中就是长大后变成的魔婴（Wicht）。灵魂研究者在研究这个问题后，发现这是由于动物的灵魂无法适应孩子的身体造成的，这一发现加剧了父母们的愤怒（因为他们当中很多人不得不杀死自己的孩子）。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:04:44.000+08:00",
+        "updated_at": "2016-10-10T18:31:36.000+08:00"
+    }, {
+        "id": 29577,
+        "media_id": 664,
+        "at": 1939,
+        "title": "研究危机",
+        "asset": {
+            "url": "/uploads/timeline/e89c931b-9603-4342-9a77-2b08e4c4c907.jpg",
+            "limit": {
+                "url": "/uploads/timeline/e89c931b-9603-4342-9a77-2b08e4c4c907_limit.jpg"
+            }
+        },
+        "content": "因为研究得出“动物的灵魂不能放在孩子们的身上”的结论，使得大批量的父母对灵魂研究者产生了愤怒。不仅杀死了自己的孩子，还有的人直接杀死了这些研究人员。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:08:47.000+08:00",
+        "updated_at": "2016-10-10T18:31:44.000+08:00"
+    }, {
+        "id": 29578,
+        "media_id": 664,
+        "at": 1961,
+        "title": "依旧肆虐",
+        "asset": {
+            "url": "/uploads/timeline/11d38ed0-49aa-4398-9329-d014ee6a72a0.jpg",
+            "limit": {
+                "url": "/uploads/timeline/11d38ed0-49aa-4398-9329-d014ee6a72a0_limit.jpg"
+            }
+        },
+        "content": "尽管研究失败而且对灵魂研究者造成了舆论的压力，这些成长之后的Wicht依旧在野外肆虐，他们在黑夜里捕杀野外的旅游者。与魔婴接触后的过程被认为是一个不值得夸耀的秘密，而不是向外人夸耀的说辞。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:10:42.000+08:00",
+        "updated_at": "2016-10-10T18:31:51.000+08:00"
+    }, {
+        "id": 29579,
+        "media_id": 664,
+        "at": 2030,
+        "title": "龙与地下城",
+        "asset": {
+            "url": "/uploads/timeline/337d7e49-a968-4aec-95ca-42b5ddd713cd.jpg",
+            "limit": {
+                "url": "/uploads/timeline/337d7e49-a968-4aec-95ca-42b5ddd713cd_limit.jpg"
+            }
+        },
+        "content": "初代博德之门直接使用了龙与地下城(AD&D）的第二版规则。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:16:04.000+08:00",
+        "updated_at": "2016-10-10T18:32:03.000+08:00"
+    }, {
+        "id": 29580,
+        "media_id": 664,
+        "at": 2043,
+        "title": "遗忘的国度",
+        "asset": {
+            "url": "/uploads/timeline/21cd2f7b-1e76-47bb-96d7-f59a521e4e9c.jpg",
+            "limit": {
+                "url": "/uploads/timeline/21cd2f7b-1e76-47bb-96d7-f59a521e4e9c_limit.jpg"
+            }
+        },
+        "content": "被遗忘的国度是TSR公司为了推广T-RPG游戏而专门设计的一套关于纸上角色扮演游戏龙与地下城的背景设定。在1980年代是游戏界称之为“金盒子”系列的主轴之一。由游戏设计者艾德·格林伍德(Ed Greenwood)创造给高级龙与地下城角色扮演游戏使用。",
+        "quote_href": "http://baike.baidu.com/link?url=s8JD-1RcFup_ep26Mu3ZlJxby-tWD0cN678m1_2-FRiqQxDTHSdbpHygmyc9z-On5CO3t4oMQ7X7A1-4ZmZvf_",
+        "created_at": "2016-10-10T17:20:26.000+08:00",
+        "updated_at": "2016-10-10T18:32:34.000+08:00"
+    }, {
+        "id": 29581,
+        "media_id": 664,
+        "at": 2055,
+        "title": "龙与地下城节目",
+        "asset": {
+            "url": "/uploads/timeline/d49d72a3-a474-4dbb-acf6-9ca57c3beb18.jpg",
+            "limit": {
+                "url": "/uploads/timeline/d49d72a3-a474-4dbb-acf6-9ca57c3beb18_limit.jpg"
+            }
+        },
+        "content": "其实我们在两年前录过《龙与地下城》的专题。D&D不仅仅在美国代表了一种文化，更是对于电子娱乐产业产生了非常大的影响。在第五版规则出版之时，也正逢40周年，我们做了该体系的专题节目。点击下方链接可听！",
+        "quote_href": "http://www.g-cores.com/volumes/14356",
+        "created_at": "2016-10-10T17:21:20.000+08:00",
+        "updated_at": "2016-10-10T18:32:42.000+08:00"
+    }, {
+        "id": 29582,
+        "media_id": 664,
+        "at": 2073,
+        "title": "游戏外的世界观",
+        "asset": {
+            "url": "/uploads/timeline/628eb2b9-825c-41fb-a843-ab29213633e5.jpg",
+            "limit": {
+                "url": "/uploads/timeline/628eb2b9-825c-41fb-a843-ab29213633e5_limit.jpg"
+            }
+        },
+        "content": "没想到游戏之前居然有这么厚的一本书，一共有100多页。这100多页里基本上没有图，都是文字。足以看出游戏的设定有多么的丰富和完整。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:27:15.000+08:00",
+        "updated_at": "2016-10-10T18:32:51.000+08:00"
+    }, {
+        "id": 29583,
+        "media_id": 664,
+        "at": 2084,
+        "title": "家园节目",
+        "asset": {
+            "url": "/uploads/timeline/462c8c96-2e62-4a68-b069-dc33d9061fe3.jpg",
+            "limit": {
+                "url": "/uploads/timeline/462c8c96-2e62-4a68-b069-dc33d9061fe3_limit.jpg"
+            }
+        },
+        "content": "关于家园的节目我们也一共录过两期。第一期讲述了家园世界观的起源，卡拉克星球上的文明发展历程。在这片瑰丽的宇宙中，坚韧的卡拉克人创造自己的文明的故事。点击下方链接收听《家园起源－卡拉克史话》。",
+        "quote_href": "http://www.g-cores.com/volumes/18212",
+        "created_at": "2016-10-10T17:29:16.000+08:00",
+        "updated_at": "2016-10-10T18:33:00.000+08:00"
+    }, {
+        "id": 29584,
+        "media_id": 664,
+        "at": 2098,
+        "title": "家园节目",
+        "asset": {
+            "url": "/uploads/timeline/b23db840-46b0-482e-80cf-b0ad0de8f33c.jpg",
+            "limit": {
+                "url": "/uploads/timeline/b23db840-46b0-482e-80cf-b0ad0de8f33c_limit.jpg"
+            }
+        },
+        "content": "在第二期节目中书接上文，开始讲述了家园1代里本篇的故事。如果觉得游戏的年代久远，可以我们的节目也能了解到游戏的历史。",
+        "quote_href": "http://www.g-cores.com/volumes/18953",
+        "created_at": "2016-10-10T17:30:53.000+08:00",
+        "updated_at": "2016-10-10T18:33:08.000+08:00"
+    }, {
+        "id": 29585,
+        "media_id": 664,
+        "at": 2117,
+        "title": "任务线",
+        "asset": {
+            "url": "/uploads/timeline/f592b905-4130-45f2-ae07-07281bcaa68d.jpg",
+            "limit": {
+                "url": "/uploads/timeline/f592b905-4130-45f2-ae07-07281bcaa68d_limit.jpg"
+            }
+        },
+        "content": "在游戏的官方维基里，任务分为了本篇和DLC白色远征的任务章节。以及同伴任务和支线任务。每一条展开都是非常长的词条，游戏的任务线完整而庞大，下面让麦教授带我们分析其中一个，领略这款游戏任务的风采。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:32:55.000+08:00",
+        "updated_at": "2016-10-10T18:33:17.000+08:00"
+    }, {
+        "id": 29620,
+        "media_id": 664,
+        "at": 2127,
+        "title": "双榆城",
+        "asset": {
+            "url": "/uploads/timeline/04c980a8-2504-435e-991e-7df56122e65a.jpg",
+            "limit": {
+                "url": "/uploads/timeline/04c980a8-2504-435e-991e-7df56122e65a_limit.jpg"
+            }
+        },
+        "content": "某种意义上算是格兰法斯人的“首都”，也是颇有天人合一之感的一座城市。",
+        "quote_href": "",
+        "created_at": "2016-10-11T08:53:25.000+08:00",
+        "updated_at": "2016-10-11T08:53:25.000+08:00"
+    }, {
+        "id": 29621,
+        "media_id": 664,
+        "at": 2140,
+        "title": "奇妙的旅馆",
+        "asset": {
+            "url": "/uploads/timeline/874dcf01-0068-46f9-b44b-72973df8a4a4.jpg",
+            "limit": {
+                "url": "/uploads/timeline/874dcf01-0068-46f9-b44b-72973df8a4a4_limit.jpg"
+            }
+        },
+        "content": "在双榆城内，一棵被彗星砸中的树上建了这座旅馆，旅馆内还能看见残留的陨石。",
+        "quote_href": "",
+        "created_at": "2016-10-11T08:56:39.000+08:00",
+        "updated_at": "2016-10-13T10:00:59.000+08:00"
+    }, {
+        "id": 29622,
+        "media_id": 664,
+        "at": 2184,
+        "title": "双榆城 设定图",
+        "asset": {
+            "url": "/uploads/timeline/333dfec3-5127-4db2-b233-7bc7fe2ea946.jpg",
+            "limit": {
+                "url": "/uploads/timeline/333dfec3-5127-4db2-b233-7bc7fe2ea946_limit.jpg"
+            }
+        },
+        "content": "整个双榆城是围绕两棵巨大的榆树建立起来的。",
+        "quote_href": "",
+        "created_at": "2016-10-11T08:57:54.000+08:00",
+        "updated_at": "2016-10-13T10:02:28.000+08:00"
+    }, {
+        "id": 29587,
+        "media_id": 664,
+        "at": 2191,
+        "title": "六个部族",
+        "asset": {
+            "url": "/uploads/timeline/15123aaf-4179-408d-969c-a3612d4b5433.jpg",
+            "limit": {
+                "url": "/uploads/timeline/15123aaf-4179-408d-969c-a3612d4b5433_limit.jpg"
+            }
+        },
+        "content": "格兰法斯部落。一共有六个主要的部落组成，由格兰法人治理。而每一个部落都受命于一位anamfath（灵魂王子）统治，并且听从council of raoithe （智者）的建议。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:39:45.000+08:00",
+        "updated_at": "2016-10-10T18:33:26.000+08:00"
+    }, {
+        "id": 29586,
+        "media_id": 664,
+        "at": 2234,
+        "title": "支线任务",
+        "asset": {
+            "url": "/uploads/timeline/16b13978-6667-41fa-bdf0-aac58befda45.jpg",
+            "limit": {
+                "url": "/uploads/timeline/16b13978-6667-41fa-bdf0-aac58befda45_limit.jpg"
+            }
+        },
+        "content": "你可以在双榆城接到两个任务：\"At the Mercy of the Tribes\"和“Hunter, Brother”，任务地点碰巧都在。Northweald这张地图上。前者发生地点在8和10，后者发生地点在6和7.",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:38:18.000+08:00",
+        "updated_at": "2016-10-11T08:59:19.000+08:00"
+    }, {
+        "id": 29588,
+        "media_id": 664,
+        "at": 2476,
+        "title": "永恒之柱 游戏画面欣赏",
+        "asset": {
+            "url": "/uploads/timeline/a44a5b41-8603-4957-bd43-f733b3dec20c.jpg",
+            "limit": {
+                "url": "/uploads/timeline/a44a5b41-8603-4957-bd43-f733b3dec20c_limit.jpg"
+            }
+        },
+        "content": "永恒之柱 游戏画面欣赏",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:54:07.000+08:00",
+        "updated_at": "2016-10-11T08:32:18.000+08:00"
+    }, {
+        "id": 29589,
+        "media_id": 664,
+        "at": 2486,
+        "title": "永恒之柱 游戏画面欣赏",
+        "asset": {
+            "url": "/uploads/timeline/fdce7c4d-f15e-4596-a4dc-842428b81aa3.png",
+            "limit": {
+                "url": "/uploads/timeline/fdce7c4d-f15e-4596-a4dc-842428b81aa3_limit.png"
+            }
+        },
+        "content": "永恒之柱 游戏画面欣赏",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:54:17.000+08:00",
+        "updated_at": "2016-10-10T20:13:27.000+08:00"
+    }, {
+        "id": 29590,
+        "media_id": 664,
+        "at": 2493,
+        "title": "永恒之柱 游戏画面欣赏",
+        "asset": {
+            "url": "/uploads/timeline/869b4d1f-24a3-41d3-be2f-69384e905897.png",
+            "limit": {
+                "url": "/uploads/timeline/869b4d1f-24a3-41d3-be2f-69384e905897_limit.png"
+            }
+        },
+        "content": "永恒之柱 游戏画面欣赏",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:54:24.000+08:00",
+        "updated_at": "2016-10-10T20:13:49.000+08:00"
+    }, {
+        "id": 29591,
+        "media_id": 664,
+        "at": 2511,
+        "title": "龙腾世纪",
+        "asset": {
+            "url": "/uploads/timeline/6da771b1-5d93-4fa2-bb37-79037f9d2935.jpg",
+            "limit": {
+                "url": "/uploads/timeline/6da771b1-5d93-4fa2-bb37-79037f9d2935_limit.jpg"
+            }
+        },
+        "content": "《龙腾世纪》同样是《博德之门》的精神续作。尤其在第一代里，战略暂停的功能，俯视角等等元素都是深刻的延续了《博德之门》的经典。我们在去年对于这个系列，在《龙腾世纪 审判》发售之时，也录过四期大专题。",
+        "quote_href": "",
+        "created_at": "2016-10-10T17:54:41.000+08:00",
+        "updated_at": "2016-10-10T18:33:36.000+08:00"
+    }, {
+        "id": 29592,
+        "media_id": 664,
+        "at": 2523,
+        "title": "龙腾系列－从Bioware谈起",
+        "asset": {
+            "url": "/uploads/timeline/9ebd8da3-c474-4046-b3c0-89460b061d58.jpg",
+            "limit": {
+                "url": "/uploads/timeline/9ebd8da3-c474-4046-b3c0-89460b061d58_limit.jpg"
+            }
+        },
+        "content": "第一期节目算是一个热身，从龙腾生父Bioware谈起，聊聊Bioware旗下几款著名游戏的特色，比如ME，翡翠帝国，KOTOR，以及DA系列等等。也同时横向对比了波兰的猎魔人以及Bethesda的老滚。最后我们同样介绍了龙腾THEDAS世界的大体世界观，想对龙腾系列有详细了解的朋友，请从这一期开始我们的旅程吧！",
+        "quote_href": "http://www.g-cores.com/volumes/14649",
+        "created_at": "2016-10-10T17:59:12.000+08:00",
+        "updated_at": "2016-10-10T18:34:18.000+08:00"
+    }, {
+        "id": 29594,
+        "media_id": 664,
+        "at": 2538,
+        "title": "龙腾系列－起源",
+        "asset": {
+            "url": "/uploads/timeline/954529d2-47f8-4a9a-966f-1e86675178a5.jpg",
+            "limit": {
+                "url": "/uploads/timeline/954529d2-47f8-4a9a-966f-1e86675178a5_limit.jpg"
+            }
+        },
+        "content": "本期三位龙腾粉详细讲解龙腾世纪－起源世这部DA开山之作里面包含的世界观设定，名词概念，剧情要点以及队友分析。包含很轻微的剧透，如果DA老玩家希望回顾这样一部神作并且补完对世界观的理解，不容错过！",
+        "quote_href": "http://www.g-cores.com/volumes/14764",
+        "created_at": "2016-10-10T18:35:01.000+08:00",
+        "updated_at": "2016-10-10T18:48:39.000+08:00"
+    }, {
+        "id": 29595,
+        "media_id": 664,
+        "at": 2557,
+        "title": "龙腾系列－龙腾II",
+        "asset": {
+            "url": "/uploads/timeline/35226af5-771f-44f6-bf8b-386329bc3dec.jpg",
+            "limit": {
+                "url": "/uploads/timeline/35226af5-771f-44f6-bf8b-386329bc3dec_limit.jpg"
+            }
+        },
+        "content": "龙腾世纪大讲堂今天继续！今天讲解2代！2代当初的大改动伤了一些玩家的心，不过作为龙腾大系列的中间一作，我们同样要好好讲解一下本作的剧情还有特色，听麦教授娓娓道来吧！（本期12分钟左右有一处灵异的剪辑问题出现，发现时为时已晚，在此像大家致歉）",
+        "quote_href": "http://www.g-cores.com/volumes/14811",
+        "created_at": "2016-10-10T18:35:51.000+08:00",
+        "updated_at": "2016-10-10T18:49:09.000+08:00"
+    }, {
+        "id": 29596,
+        "media_id": 664,
+        "at": 2559,
+        "title": "龙腾世纪－审判",
+        "asset": {
+            "url": "/uploads/timeline/11199dfa-8278-46cf-8add-e173bbc50fb2.jpg",
+            "limit": {
+                "url": "/uploads/timeline/11199dfa-8278-46cf-8add-e173bbc50fb2_limit.jpg"
+            }
+        },
+        "content": "(长舒一口气）GADIO Pro世上最长系列今天迎来了完结篇，让我们四个继续为您讲述Thedas大陆上的故事吧，我们紧接着第二部圣法战争开始之后的历史，如果您对于审判中的世界观设定和剧情有何疑问或想补完，那请你完成这个广播系列！哈哈！",
+        "quote_href": "http://www.g-cores.com/volumes/14903",
+        "created_at": "2016-10-10T18:38:17.000+08:00",
+        "updated_at": "2016-10-10T18:49:16.000+08:00"
+    }, {
+        "id": 29597,
+        "media_id": 664,
+        "at": 2575,
+        "title": "永恒之柱的经典",
+        "asset": {
+            "url": "/uploads/timeline/8f788216-8b12-441b-8c30-3d915282e59f.jpg",
+            "limit": {
+                "url": "/uploads/timeline/8f788216-8b12-441b-8c30-3d915282e59f_limit.jpg"
+            }
+        },
+        "content": "经典的作品永不过时，永恒之柱非常“完整”的继承了博德之门的精神。比起变成“主流孩子”的《龙腾世纪》，也许这款去年的年度角色扮演黑马，更配得上是真正的“精神续作”的称号。在15年TGA上也获得了“最佳角色扮演”的提名。虽然没有获奖，但这也足以证明了，老派美式RPG在玩家心目中的地位。它仍然在业界中占有一席之地。",
+        "quote_href": "",
+        "created_at": "2016-10-10T18:39:00.000+08:00",
+        "updated_at": "2016-10-10T18:49:24.000+08:00"
+    }, {
+        "id": 29598,
+        "media_id": 664,
+        "at": 2605,
+        "title": "STEAM购买",
+        "asset": {
+            "url": "/uploads/timeline/57d66e2c-ef5b-48f7-809b-b173fb297e62.jpg",
+            "limit": {
+                "url": "/uploads/timeline/57d66e2c-ef5b-48f7-809b-b173fb297e62_limit.jpg"
+            }
+        },
+        "content": "而为这类游戏续一秒的方式，就是去STEAM购买官方正版啦！游戏的售价确实不贵，并且有DLC整合大礼包。100多块钱，体验如此经典，耐玩的游戏，这一波不亏！",
+        "quote_href": "http://store.steampowered.com/app/291650/",
+        "created_at": "2016-10-10T18:44:38.000+08:00",
+        "updated_at": "2016-10-10T18:49:32.000+08:00"
+    }, {
+        "id": 29623,
+        "media_id": 664,
+        "at": 2611,
+        "title": "《暴政》",
+        "asset": {
+            "url": "/uploads/timeline/a9263307-3269-49b4-94da-7a2b89dc0fa8.jpg",
+            "limit": {
+                "url": "/uploads/timeline/a9263307-3269-49b4-94da-7a2b89dc0fa8_limit.jpg"
+            }
+        },
+        "content": "黑曜石似乎也因为《永恒之柱》良好的市场反馈而探索出了一条更适合自己的道路。",
+        "quote_href": "",
+        "created_at": "2016-10-11T09:04:53.000+08:00",
+        "updated_at": "2016-10-11T09:04:53.000+08:00"
+    }],
+    "jplayerSwf": "/jplayer.swf",
+    "audioId": 20764,
+    "last_time": 0
+}
