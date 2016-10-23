@@ -180,6 +180,17 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
     response = readGadioInfo(nodes);
     sendResponse(response);
   }
+
+  if('PlayGadio' == messgae.msg){
+    //
+    // src = message.data.track_src;
+    // time = message.data.start_time;
+    // audio_player = $("#audio_player")[0];
+    // audio_player.src = src;
+    // alert(audio_player);
+    // audio_player.play();
+  }
+
 });
 
 setInterval(function(){

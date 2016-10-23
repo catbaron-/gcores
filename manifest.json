@@ -13,13 +13,12 @@
         },
         "default_popup": "popup.html"
     },
+
     "background": {
-        "scripts": [
-            "jquery.min.js",
-            "g-cores.js"
-        ]
+        "page": "background.html"
     },
     "permissions": [
+        "background",
         "activeTab",
         "tabs",
         "webNavigation",

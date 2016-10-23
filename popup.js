@@ -18,13 +18,20 @@ function showPlayInfo(response){
   $("#play_info").text(JSON.stringify(response));
   $(id_gadio_play).fadeIn();
 }
-function playAtTime(response, time){
+function playAtTime(gadio, time=0){
   // alert(response.url_podcast);
-  // alert(time);
+  background_page = chrome.extension.getBackgroundPage().document
+  audio_player = background_page.getElementById("gadio_player");
+  src = gadio['mediaSrc']['mp3'][0];
+  time = time;
+  audio_player.src = src;
+  audio_player.play();
+  // chrome.runtime.sendMessage({'msg':'PlayGadio',
+                              // 'data':{'time':time, 'track_src':gadio.mediaSrc.mp3[0]}});
 }
-function playGadioAndShowInfo(response){
-  showPlayInfo(response);
-  playAtTime(response, 0);
+function playGadioAndShowInfo(gadio){
+  showPlayInfo(gadio);
+  playAtTime(gadio, 0);
 }
 
 function playGadio(id){
@@ -56,4 +63,10 @@ chrome.runtime.sendMessage({'msg':'GetGadioList'}, showGadioList);
 $("#back_to_list").bind('click', function(){
   $(id_gadio_play).fadeOut();
   $(id_gadio_list).fadeIn();
+})
+
+$("#pause").bind('click', function(){
+  background_page = chrome.extension.getBackgroundPage().document
+  audio_player = background_page.getElementById("gadio_player");
+  audio_player.pause();
 })
